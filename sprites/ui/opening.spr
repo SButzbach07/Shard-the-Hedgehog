@@ -1,0 +1,117 @@
+// -----------------------------------------------------------------------------
+// File: opening.spr
+// Description: default Level Opening Animation sprite script
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+sprite "DefaultOpeningAnimation.LeftHalf"
+{
+    source_file     "images/opening.png"
+    source_rect     0 32 480 240
+    frame_size      480 240
+    hot_spot        480 0
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+sprite "DefaultOpeningAnimation.RightHalf"
+{
+    source_file     "images/opening.png"
+    source_rect     0 272 480 240
+    frame_size      480 240
+    hot_spot        0 0
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+sprite "DefaultOpeningAnimation.Void"
+{
+    source_file     "images/opening.png"
+    source_rect     0 512 426 240
+    frame_size      426 240
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+sprite "DefaultOpeningAnimation.Formula"
+{
+    source_file     "images/opening.png"
+    source_rect     0 784 320 240
+    frame_size      320 240
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+sprite "DefaultOpeningAnimation.Lightning"
+{
+    source_file     "images/opening.png"
+    source_rect     576 32 64 64
+    frame_size      64 64
+    hot_spot        32 32
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+sprite "DefaultOpeningAnimation.Wheel"
+{
+    source_file     "images/opening.png"
+    source_rect     576 96 64 64
+    frame_size      64 64
+    hot_spot        32 32
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+sprite "DefaultOpeningAnimation.Arrow"
+{
+    source_file     "images/opening.png"
+    source_rect     576 160 64 64
+    frame_size      64 32
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+        hot_spot    0 36
+    }
+
+    animation 1
+    {
+        repeat      TRUE
+        fps         8
+        data        1
+        hot_spot    32 -4
+    }
+}

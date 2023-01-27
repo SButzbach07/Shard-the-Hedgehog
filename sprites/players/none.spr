@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// File: none.spr
+// Description: sprite definition file (.spr) for character "None"
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+// A transparent sprite
+sprite "None"
+{
+    source_file     "images/core.png"
+    source_rect     200 8 16 16
+    frame_size      16 16
+    hot_spot        8 8
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}

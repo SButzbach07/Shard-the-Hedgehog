@@ -1,0 +1,171 @@
+// -----------------------------------------------------------------------------
+// File: spring_booster.spr
+// Description: spring booster sprite script
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+sprite "Spring Booster"
+{
+    source_file     "images/items/spring_booster.png"
+    source_rect     0 32 640 64
+    frame_size      64 32
+    hot_spot        32 32
+
+    //
+    // Orientation: Right
+    //
+
+    // visible
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        8
+    }
+
+    // appearing
+    animation 1
+    {
+        repeat      FALSE
+        fps         96
+        data        1 2 3 4 5 6 7 8
+    }
+
+    // action!
+    animation 2
+    {
+        repeat      FALSE
+        fps         8
+        data        9 9 9 8
+    }
+
+    // invisible
+    animation 3
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+
+    //
+    // Orientation: Left
+    //
+
+    // visible
+    animation 5
+    {
+        repeat      TRUE
+        fps         8
+        data        18
+    }
+
+    // appearing
+    animation 6
+    {
+        repeat      FALSE
+        fps         96
+        data        11 12 13 14 15 16 17 18
+    }
+
+    // action!
+    animation 7
+    {
+        repeat      FALSE
+        fps         8
+        data        19 19 19 18
+    }
+
+    // invisible
+    animation 8
+    {
+        repeat      TRUE
+        fps         8
+        data        10
+    }
+}
+
+sprite "Spring Booster Block"
+{
+    source_file     "images/items/spring_booster.png"
+    source_rect     608 224 32 32
+    frame_size      32 32
+    hot_spot        16 32
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+sprite "Spring Booster Right"
+{
+    source_file     "images/items/spring_booster.png"
+    source_rect     0 32 640 64
+    frame_size      64 32
+    hot_spot        32 32
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        8
+    }
+}
+
+sprite "Spring Booster Left"
+{
+    source_file     "images/items/spring_booster.png"
+    source_rect     0 32 640 64
+    frame_size      64 32
+    hot_spot        32 32
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        18
+    }
+}
+
+sprite "Spring Booster Up"
+{
+    source_file     "images/items/spring_booster.png"
+    source_rect     0 128 640 48
+    frame_size      32 48
+    hot_spot        16 48
+
+    // visible
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        8
+    }
+
+    // appearing
+    animation 1
+    {
+        repeat      FALSE
+        fps         48
+        data        1 2 3 4 5 6 7 8
+    }
+
+    // action!
+    animation 2
+    {
+        repeat      FALSE
+        fps         8
+        data        9 9 9 8
+    }
+
+    // invisible
+    animation 3
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}

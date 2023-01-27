@@ -1,0 +1,64 @@
+// Open Surge Engine
+// http://opensurge2d.org
+// Legacy fonts for retrocompatibility
+
+// HUD fonts
+font "hud_title"
+{
+    truetype
+    {
+        source_file             "fonts/Roboto-Bold.ttf"
+        size                    24
+        antialias
+    }
+}
+
+font "hud_subtext"
+{
+    truetype
+    {
+        source_file             "fonts/Roboto-Bold.ttf"
+        size                    13
+    }
+}
+
+font "hud_legacy"
+{
+    truetype
+    {
+        source_file             "fonts/Roboto-Bold.ttf"
+        size                    13
+    }
+}
+
+font "hud_levelend"
+{
+    truetype
+    {
+        source_file             "fonts/Roboto-Medium.ttf"
+        size                    24
+        antialias
+        shadow
+    }
+}
+
+// general purpose truetype fonts
+font "default_ttf"
+{
+    truetype
+    {
+        source_file             "fonts/Roboto-Medium.ttf"
+        size                    13
+    }
+}
+
+font "default_ttf_aa"
+{
+    truetype
+    {
+        source_file             "fonts/Roboto-Medium.ttf"
+        size                    13
+        antialias
+        shadow
+    }
+}

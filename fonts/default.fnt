@@ -1,0 +1,26 @@
+// Open Surge Engine
+// http://opensurge2d.org
+// Default fonts
+
+// general purpose bitmap font
+font "default"
+{
+    bitmap
+    {
+        source_file             "fonts/default.png"
+        source_rect             0 0 128 72
+        frame_size              8 12
+        keymap                  " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_\x60abcdefghijklmnopqrstuvwxyz{|}~\x7f"
+    }
+}
+
+// general purpose truetype font
+font "sans"
+{
+    truetype
+    {
+        source_file             "fonts/Roboto-Medium.ttf"
+        size                    15
+        shadow
+    }
+}

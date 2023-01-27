@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// File: create.qst
+// Description: a quest for the Create Menu
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+// quest data
+name            "Create Menu"
+
+// level list
+level           "levels/scenes/create.lev"

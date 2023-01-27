@@ -1,0 +1,118 @@
+// Water sprite
+// by Alexandre
+
+sprite SD_WATERLEVEL
+{
+    source_file     "images/water.png"
+    source_rect     0 0 426 14
+    frame_size      426 7
+    hot_spot        0 0
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1
+    }
+}
+
+// no longer used!
+sprite SD_WATERCOUNTER
+{
+    source_file     "images/water.png"
+    source_rect     0 32 80 15
+    frame_size      8 15
+    hot_spot        4 7
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         0.01
+        data        0 1 2 3 4 5 6 7 8 9
+    }
+}
+
+sprite SD_WATERSPLASH
+{
+    source_file     "images/watersplash.png"
+    source_rect     0 0 256 64
+    frame_size      64 64
+    hot_spot        32 64
+
+    animation 0
+    {
+        repeat      FALSE
+        fps         12
+        data        0 1 2 3
+    }
+
+    animation 1
+    {
+        repeat      FALSE
+        fps         12
+        data        0 1 2 3
+    }
+}
+
+sprite SD_WATERAIRSOURCE
+{
+    source_file     "images/water.png"
+    source_rect     0 96 96 32
+    frame_size      32 32
+    hot_spot        16 32
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1 2
+    }
+}
+
+sprite SD_WATERAIRBUBBLE
+{
+    source_file     "images/water.png"
+    source_rect     0 128 288 32
+    frame_size      32 32
+    hot_spot        16 16
+
+    // small bubble
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        1
+    }
+
+    // growing bubble
+    animation 1
+    {
+        repeat      FALSE
+        fps         8
+        data        0 0 0 0 0 0 0 0 1 2 3 4 5 6
+    }
+
+    // bloft!
+    animation 2
+    {
+        repeat      FALSE
+        fps         8
+        data        7 8
+    }
+
+    // medium bubble
+    animation 3
+    {
+        repeat      TRUE
+        fps         8
+        data        2
+    }
+
+    // very small bubble
+    animation 4
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}

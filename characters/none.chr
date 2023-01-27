@@ -1,0 +1,69 @@
+// ---------------------------------------------------------------------------
+// Open Surge Engine
+// http://opensurge2d.org
+//
+// File:   characters/none.chr
+// Desc:   character definition for 'None' 
+//         'None' a special player that doesn't move and doesn't appear in the screen
+// Author: script by Alexandre
+// ---------------------------------------------------------------------------
+
+character "None"
+{
+    companions                      "None"
+    
+    multipliers
+    {
+        acceleration                1.0
+        deceleration                1.0
+        friction                    1.0
+        topspeed                    1.0
+        jump                        1.0
+        gravity                     1.0
+        slope                       1.0
+        charge                      1.0
+        airacceleration             1.0
+        airdrag                     1.0
+    }
+    
+    animations
+    {
+        sprite_name                 "None"
+        stopped                     0
+        walking                     0
+        running                     0
+        jumping                     0
+        springing                   0
+        rolling                     0
+        pushing                     0
+        gettinghit                  0
+        dead                        0
+        braking                     0
+        ledge                       0
+        drowned                     0
+        breathing                   0
+        waiting                     0
+        ducking                     0
+        lookingup                   0
+        winning                     0
+        ceiling                     0
+        charging                    0
+    }
+
+    abilities
+    {
+        roll                        FALSE
+        brake                       FALSE
+        charge                      FALSE
+    }
+    
+    samples
+    {
+        jump                        "samples/jump.wav"
+        roll                        "samples/roll.wav"
+        death                       "samples/death.wav"
+        brake                       "samples/brake.wav"
+        charge                      "samples/charge.wav"
+        release                     "samples/release.wav"
+    }
+}

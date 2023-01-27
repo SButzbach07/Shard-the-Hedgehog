@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// File: none.bg
+// Description: an empty background
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+background
+{
+    initial_position    0 0
+    scroll_speed        0 0
+    behavior            DEFAULT
+    repeat_x            TRUE
+    repeat_y            TRUE
+
+    sprite
+    {
+        source_file     "images/fade_effect.png"
+        source_rect     0 0 426 240
+        frame_size      426 240
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}

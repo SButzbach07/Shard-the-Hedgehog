@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// File: mouse.spr
+// Description: script for the mouse cursor
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// ----------------------------------------------------------------------------
+
+// art by qubodup (opengameart.org)
+sprite "Mouse Cursor"
+{
+    source_file     "images/cursor.png"
+    source_rect     0 0 12 16
+    frame_size      12 16
+    hot_spot        0 0
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+

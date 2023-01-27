@@ -1,0 +1,91 @@
+// -----------------------------------------------------------------------------
+// File: water.spr
+// Description: water sprites
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+sprite "Water Splash"
+{
+    source_file     "images/watersplash.png"
+    source_rect     0 0 256 64
+    frame_size      64 64
+    hot_spot        32 64
+
+    animation 0
+    {
+        repeat      FALSE
+        fps         12
+        data        0 1 2 3
+    }
+
+    animation 1
+    {
+        repeat      FALSE
+        fps         12
+        data        0 1 2 3
+    }
+}
+
+sprite "Water Bubble"
+{
+    source_file     "images/water.png"
+    source_rect     0 128 288 32
+    frame_size      32 32
+    hot_spot        16 16
+
+    // small bubble
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        1
+    }
+
+    // growing bubble
+    animation 1
+    {
+        repeat      FALSE
+        fps         8
+        data        0 0 0 0 0 0 0 0 1 2 3 4 5 6
+    }
+
+    // bloft!
+    animation 2
+    {
+        repeat      FALSE
+        fps         8
+        data        7 8
+    }
+
+    // medium bubble
+    animation 3
+    {
+        repeat      TRUE
+        fps         8
+        data        2
+    }
+
+    // very small bubble
+    animation 4
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+sprite "Water Surface"
+{
+    source_file     "images/watersurface.png"
+    source_rect     0 0 416 48
+    frame_size      416 16
+    hot_spot        0 2
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1 0 2
+    }
+}

@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// File: jumping_fish.spr
+// Description: Jumping Fish sprite script
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+sprite "Jumping Fish"
+{
+    source_file     "images/jumping_fish.png"
+    source_rect     0 16 160 144
+    frame_size      32 48
+    hot_spot        16 0
+
+    // Blowfish (art by João Victor)
+    animation 0
+    {
+        repeat      TRUE
+        fps         12
+        data        0 1
+    }
+
+    // Fishburne (art by Alexandre)
+    animation 1
+    {
+        repeat      TRUE
+        fps         12
+        data        5 6
+    }
+}
+
+
+

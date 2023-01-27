@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// File: default.qst
+// Description: default quest
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+// quest properties
+name            "Default quest"
+
+// level list (in order of appearance)
+level           "levels/waterworks-zone-1.lev"
+level           "levels/waterworks-zone-2.lev"
+level           "levels/waterworks-zone-3.lev"
+level           "levels/scenes/end_of_demo.lev"
+level           "levels/demo-1.lev"
+level           "levels/demo-2.lev"

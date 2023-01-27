@@ -1,0 +1,16 @@
+// Splash screen
+name "Allegro Splash"
+author "Alexandre Martins"
+license "CC-0"
+version "1.0"
+requires "0.5.1"
+act 1
+theme "themes/none.brk"
+setup "Splash"
+players "None"
+readonly
+
+// Tip for modders: to make a splash
+// screen, copy this file and change
+// the line below to your background
+bgtheme "themes/scenes/allegro.bg"

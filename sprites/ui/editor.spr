@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// File: editor.spr
+// Description: script for editor sprites
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// ----------------------------------------------------------------------------
+
+// art by Colin Beard
+sprite "Eraser"
+{
+    source_file     "images/eraser.png"
+    source_rect     0 0 19 18
+    frame_size      19 18
+    hot_spot        9 9
+
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}

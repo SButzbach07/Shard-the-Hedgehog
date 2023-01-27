@@ -1,0 +1,83 @@
+// ---------------------------------------------------------------------------
+// Open Surge Engine
+// http://opensurge2d.org
+//
+// File:   default_companions/surge.inc
+// Desc:   Surge's companion
+// Author: Alexandre
+// ---------------------------------------------------------------------------
+
+object ".surge_companion"
+{
+    requires 0.2.0
+    always_active
+
+    state "main"
+    {
+        create_child ".surge_nolightwalk_controller"
+        destroy
+    }
+}
+
+object ".surge_nolightwalk_controller" // his light sneakers can't shine when in the air
+{
+    requires 0.2.0
+    always_active
+
+    state "main"
+    {
+        hide
+        observe_player "Surge"
+        change_state "stand by"
+    }
+
+    state "stand by"
+    {
+        on_player_in_the_air "air"
+    }
+
+    state "air"
+    {
+        on_player_walk "walking in the air"
+        on_player_run "running in the air"
+        on_player_brake "braking in the air"
+        on_player_in_the_air "air"
+        change_state "stand by"
+    }
+
+    state "walking in the air"
+    {
+        on_player_spring "stand by"
+        on_player_jump "stand by"
+        on_player_gethit "stand by"
+        on_player_death "stand by"
+
+        set_player_animation "Surge" 20
+        on_player_in_the_air "walking in the air"
+        change_state "stand by"
+    }
+
+    state "running in the air"
+    {
+        on_player_spring "stand by"
+        on_player_jump "stand by"
+        on_player_gethit "stand by"
+        on_player_death "stand by"
+
+        set_player_animation "Surge" 21
+        on_player_in_the_air "running in the air"
+        change_state "stand by"
+    }
+
+    state "braking in the air"
+    {
+        on_player_spring "stand by"
+        on_player_jump "stand by"
+        on_player_gethit "stand by"
+        on_player_death "stand by"
+
+        set_player_animation "Surge" 22
+        on_player_in_the_air "braking in the air"
+        change_state "stand by"
+    }
+}

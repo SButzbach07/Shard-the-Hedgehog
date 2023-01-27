@@ -1,0 +1,13 @@
+// Open Surge Engine
+// http://opensurge2d.org
+
+font "dialogbox"
+{
+    truetype
+    {
+        source_file             "fonts/Roboto-Medium.ttf"
+        size                    14
+        shadow
+        antialias
+    }
+}

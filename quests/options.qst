@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// File: options.qst
+// Description: this quest loads the built-in options screen of the engine
+// Author: Alexandre Martins <http://opensurge2d.org>
+// License: MIT
+// -----------------------------------------------------------------------------
+
+// modders: you don't need to modify this file.
+
+// quest properties
+name            "Options screen"
+
+// level list
+<options>
