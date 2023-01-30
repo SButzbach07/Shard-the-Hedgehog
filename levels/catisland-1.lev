@@ -7,7 +7,7 @@
 // header
 name "Cat Island"
 author "Scot Butzbach"
-license "CC-BY-4.0"
+license "CC-BY 4.0"
 version "1.0"
 requires "0.6.0"
 act 1
@@ -16,7 +16,7 @@ bgtheme "themes/sunshine.bg"
 spawn_point 128 9920
 music "musics/sunshine.ogg"
 setup "Surge Gameplay" "Default Camera" "Default Pause and Quit" "Default HUD" "Default Title Card" "Default Cleared Animation"
-players "Surge"
+players "Shard"
 waterlevel 10800
 
 // bricks
