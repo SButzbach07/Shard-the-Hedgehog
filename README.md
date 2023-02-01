@@ -12,9 +12,13 @@ For more information, visit [the repository](https://github.com/alemart/opensurg
 
 ## Credits
 __Scot Butzbach (SButzbach07)__ [https://scot.butzbach.net](https://scot.butzbach.net)
+
 Lead Developer
+
 Sprite Artist
+
 Music Composer
+
 Tester
 
 Files:
@@ -31,11 +35,15 @@ Files:
 * sprites/scenes/title_screen.spr _(Altered to display new title screen logo)_
 
 __Christopher Atkinson__
+
 Level Creator
+
 Music Composer
+
 Tester
 
 __Brandon Freck__
+
 Tester
 
 ## Disclaimer
