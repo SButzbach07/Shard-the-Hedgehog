@@ -12,14 +12,10 @@ For more information, visit [the repository](https://github.com/alemart/opensurg
 
 ## Credits
 __Scot Butzbach (SButzbach07)__ [https://scot.butzbach.net](https://scot.butzbach.net)
-
-Lead Developer
-
-Sprite Artist
-
-Music Composer
-
-Tester
+* Lead Developer
+* Sprite Artist
+* Music Composer
+* Tester
 
 Files:
 * characters/shard_game/shard.chr _(MIT)_
@@ -35,16 +31,12 @@ Files:
 * sprites/scenes/title_screen.spr _(Altered to display new title screen logo)_
 
 __Christopher Atkinson__
-
-Level Creator
-
-Music Composer
-
-Tester
+* Level Creator
+* Music Composer
+* Tester
 
 __Brandon Freck__
-
-Tester
+* Tester
 
 ## Disclaimer
 All new assets are in a folder called *shard_game* in their respective locations. Any alterations to application flow that are different than the base game were altered by any team members (and they have accounted for the change under their name :|). The game engine source is untouched. Shard's spritemap is based on the Sonic 3 spritemap of Sonic the Hedgehog, which was created by Sonic Team & SEGA.
