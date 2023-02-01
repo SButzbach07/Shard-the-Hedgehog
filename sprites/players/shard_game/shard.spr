@@ -66,7 +66,7 @@ sprite "Shard"
     {
         repeat      TRUE
         fps         40
-        data        13 17 14 17 15 17 16 17
+        data        48 53 49 53 50 53 51 53 52 53
     }
 
     // braking
