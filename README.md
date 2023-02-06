@@ -15,7 +15,7 @@ For more information, visit [the repository](https://github.com/alemart/opensurg
 
 ## Credits
 
-### Scot Butzbach (SButzbach07) [https://scot.butzbach.net](https://scot.butzbach.net)
+### Scot Butzbach [SButzbach07](https://github.com/SButzbach07) [https://scot.butzbach.net](https://scot.butzbach.net)
 
 * Lead Developer
 * Sprite Artist
@@ -36,7 +36,7 @@ Files:
 * sprites/players/shard_game/shard.spr _(MIT)_
 * sprites/scenes/title_screen.spr _(Altered to display new title screen logo)_
 
-### Christopher Atkinson
+### Christopher Atkinson [ChrisTheMaster](https://github.com/ChrisTheMaster)
 
 * Level Creator
 * Music Composer
