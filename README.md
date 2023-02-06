@@ -42,10 +42,6 @@ Files:
 * Music Composer
 * Tester
 
-### Brandon Freck
-
-* Tester
-
 ## Disclaimer
 
 All new assets are in a folder called _shard_game_ in their respective locations. Any alterations to application flow that are different than the base game were altered by any team members (and they have accounted for the change under their name :|). The game engine source is untouched. Shard's spritemap is based on the Sonic 3 spritemap of Sonic the Hedgehog, which was created by Sonic Team & SEGA.
