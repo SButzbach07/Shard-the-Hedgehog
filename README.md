@@ -55,7 +55,7 @@ Files:
 
 ## Disclaimer
 
-Shard the Hedgehog is not to be mistaken by Shard the Metal Sonic fan character found [here](https://sonicfanon.fandom.com/wiki/Shard_the_Metal_Sonic_(Adventures))
+Shard the Hedgehog is not to be mistaken by Shard the Metal Sonic fan character found [here](https://sonicfanon.fandom.com/wiki/Shard_the_Metal_Sonic_(Adventures)).
 
 All new assets are in a folder called _shard_game_ in their respective locations.
 
