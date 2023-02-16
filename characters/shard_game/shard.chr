@@ -9,6 +9,7 @@
 
 character "Shard"
 {
+    companions                      "Dash Smoke" "Brake Smoke"
     multipliers
     {
         acceleration                1.0
