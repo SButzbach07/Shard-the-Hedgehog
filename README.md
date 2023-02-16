@@ -18,8 +18,8 @@ For more information, visit [the repository](https://github.com/alemart/opensurg
 ### Scot Butzbach ([SButzbach07](https://github.com/SButzbach07)) [https://scot.butzbach.net](https://scot.butzbach.net)
 
 * Lead Developer
-* Sprite Artist
 * Music Composer
+* Sprite Artist
 * Tester
 
 Files:
@@ -30,21 +30,32 @@ Files:
 * images/scenes/shard_game/title_screen_logo.png _(CC-BY 4.0)_
 * images/ui/title_card.png _(Altered to display 'Shard the Hedgehog' beginning a level; __THIS WAS NOT CREDITED FOR IN THE ORIGINAL GAME :|__)_
 * levels/\*.lev _(Altered to replace Surge for Shard; Exception for surgescript.lev and all others mentioned by other collaborators)_
+* musics/shard_game/options.ogg _(CC-BY 4.0; Original file "Synth Power.mp3" can be found on my website)_
 * musics/shard_game/title.ogg _(CC-BY 4.0; Original file "Synth Power.mp3" can be found on my website)_
 * quests/intro.qst _(Altered to not display SAGE '22 when starting application)_
 * scripts/setup/scenes/title_screen.ss _(Altered to play new title music)_
 * sprites/players/shard_game/shard.spr _(MIT)_
 * sprites/scenes/title_screen.spr _(Altered to display new title screen logo)_
+* themes/template.bg _(Altered to display Shard in scrolling backround)_
+* themes/scenes/credits.bg _(Altered to display Shard in scrolling background and Shard in bottom-right corner)_
+* themes/scenes/langselect.bg _(Altered to display Shard in scrolling background)_
+* themes/scenes/levelselect.bg _(Altered to display Shard in scrolling background)_
+* themes/scenes/options.bg _(Altered to display Shard in scrolling background)_
 
 ### Christopher Atkinson ([ChrisTheMaster](https://github.com/ChrisTheMaster))
 
 * Level Creator
 * Music Composer
+* Sprite Artist
 * Tester
+
+Files:
+
+* levels/Sand Hills.lev _(MIT)_
 
 ## Disclaimer
 
-Shard the Hedgehog is not to be mistaken by Shard, the original Metal Sonic from the Sonic comic series.
+Shard the Hedgehog is not to be mistaken by Shard the Metal Sonic fan character found [here](https://sonicfanon.fandom.com/wiki/Shard_the_Metal_Sonic_(Adventures))
 
 All new assets are in a folder called _shard_game_ in their respective locations.
 
