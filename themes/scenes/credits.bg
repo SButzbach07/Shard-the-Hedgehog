@@ -15,7 +15,7 @@ background
 
     sprite
     {
-        source_file     "images/surgebg.png"
+        source_file     "images/shard_game/shardbg.png"
         source_rect     0 0 48 48
         frame_size      48 48
 
@@ -39,7 +39,7 @@ background
 
     sprite
     {
-        source_file     "images/credits.png"
+        source_file     "images/shard_game/credits.png"
         source_rect     0 0 426 240
         frame_size      426 240
 
