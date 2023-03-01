@@ -53,6 +53,10 @@ Files:
 
 * levels/Sand Hills.lev _(MIT)_
 
+### Nathan Aquino ([MonkeyManiacc](https://github.com/MonkeyManiacc))
+
+* _Roles to be determined soon._
+
 ## Disclaimer
 
 Shard the Hedgehog is not to be mistaken by Shard the Metal Sonic fan character found [here](https://sonicfanon.fandom.com/wiki/Shard_the_Metal_Sonic_(Adventures)).
