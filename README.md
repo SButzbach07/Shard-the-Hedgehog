@@ -52,6 +52,7 @@ Files:
 Files:
 
 * levels/Sand Hills.lev _(MIT)_
+* musics/shard_game/8 bits of a tropical paradise.ogg _(CC-BY 4.0; Converted to .ogg by SButzbach07)_
 
 ### Nathan Aquino ([MonkeyManiacc](https://github.com/MonkeyManiacc))
 
