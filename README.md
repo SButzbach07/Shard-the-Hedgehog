@@ -52,10 +52,13 @@ Files:
 Files:
 
 * levels/Sand Hills.lev _(MIT)_
+* musics/shard_game/8 bits of a tropical paradise.ogg _(CC-BY 4.0; Converted to .ogg by SButzbach07)_
+
+### Nathan Aquino ([MonkeyManiacc](https://github.com/MonkeyManiacc))
+
+* _Roles to be determined soon._
 
 ## Disclaimer
-
-Shard the Hedgehog is not to be mistaken by Shard the Metal Sonic fan character found [here](https://sonicfanon.fandom.com/wiki/Shard_the_Metal_Sonic_(Adventures)).
 
 All new assets are in a folder called _shard_game_ in their respective locations.
 
