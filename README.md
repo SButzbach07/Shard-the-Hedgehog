@@ -25,13 +25,13 @@ For more information, visit [the repository](https://github.com/alemart/opensurg
 Files:
 
 * characters/shard_game/shard.chr _(MIT)_
-* images/players/shard_game/shard.png _(CC-BY 4.0)_
-* images/players/shard_game/shard_life_icon.png _(CC-BY 4.0)_
-* images/scenes/shard_game/title_screen_logo.png _(CC-BY 4.0)_
+* images/players/shard_game/shard.png _(CC BY-SA 4.0)_
+* images/players/shard_game/shard_life_icon.png _(CC BY-SA 4.0)_
+* images/scenes/shard_game/title_screen_logo.png _(CC BY-SA 4.0)_
 * images/ui/title_card.png _(Altered to display 'Shard the Hedgehog' beginning a level; __THIS WAS NOT CREDITED FOR IN THE ORIGINAL GAME :|__)_
 * levels/\*.lev _(Altered to replace Surge for Shard; Exception for surgescript.lev and all others mentioned by other collaborators)_
-* musics/shard_game/options.ogg _(CC-BY 4.0; Original file "Synth Power.mp3" can be found on my website)_
-* musics/shard_game/title.ogg _(CC-BY 4.0; Original file "Synth Power.mp3" can be found on my website)_
+* musics/shard_game/options.ogg _(CC BY-SA 4.0; Original file "Synth Power.mp3" can be found on my website)_
+* musics/shard_game/title.ogg _(CC BY-SA 4.0; Original file "Synth Power.mp3" can be found on my website)_
 * quests/intro.qst _(Altered to not display SAGE '22 when starting application)_
 * scripts/setup/scenes/title_screen.ss _(Altered to play new title music)_
 * sprites/players/shard_game/shard.spr _(MIT)_
@@ -52,7 +52,7 @@ Files:
 Files:
 
 * levels/Sand Hills.lev _(MIT)_
-* musics/shard_game/8 bits of a tropical paradise.ogg _(CC-BY 4.0; Converted to .ogg by SButzbach07)_
+* musics/shard_game/8 bits of a tropical paradise.ogg _(CC BY-SA 4.0; Converted to .ogg by SButzbach07)_
 
 ### Nathan Aquino ([MonkeyManiacc](https://github.com/MonkeyManiacc))
 
